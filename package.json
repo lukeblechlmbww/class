@@ -1,0 +1,19 @@
+{
+  "name": "class",
+  "version": "0.0.0",
+  "description": "The node & Express project for HTML5 class",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lukeblechlmbww/class.git"
+  },
+  "author": "Luke Blechl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukeblechlmbww/class/issues"
+  },
+  "homepage": "https://github.com/lukeblechlmbww/class"
+}
