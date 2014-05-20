@@ -15,7 +15,7 @@ app.get('who/:name?', function(req, res) {
 });
 
 app.get('/who/:name?/:title?', function(req, res) {
-	var name = requ.params.name;
+	var name = req.params.name;
 	var title = req.params.title;
 	res.send('<p>name: ' + name + '<br>title: ' + title + '</p>');
 });
