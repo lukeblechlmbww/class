@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/lukeblechlmbww/class/issues"
   },
-  "homepage": "https://github.com/lukeblechlmbww/class"
+  "homepage": "https://github.com/lukeblechlmbww/class",
+  "dependencies": {
+    "express": "^4.2.0"
+  }
 }
