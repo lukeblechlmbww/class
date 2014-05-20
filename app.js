@@ -20,12 +20,12 @@ app.get('/who/:name?/:title?', function(req, res) {
 	res.send('<p>name: ' + name + '<br>title: ' + title + '</p>');
 });
 
-app.get('*', function(req, res) {
-	res.send('Bad Route');
-});
-
 app.get('/luke', function(req, res) {
   res.send('Yo Yo Brahj!');
+});
+
+app.get('*', function(req, res) {
+	res.send('Bad Route');
 });
 
 var server = app.listen(3000, function() {
