@@ -20,8 +20,12 @@ app.get('/who/:name?/:title?', function(req, res) {
 	res.send('<p>name: ' + name + '<br>title: ' + title + '</p>');
 });
 
-app.get('/luke', function(req, res) {
-  res.send('Yo Yo Brahj!');
+app.get('/talk/:otherName/:name/:title/:gender', function(req, res) {
+	var otherName = req.params.otherName,
+		name   = req.params.name,
+		title  = req.params.title
+		gender = (req.params.gender == ('f' || 'female')) ? 'lady' : 'guy';
+  res.send(otherName + ' says \'Hi\' to ' + name + ', the ' + title + ' ' + gender);
 });
 
 app.get('*', function(req, res) {
